@@ -9,7 +9,10 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "elysia": "^1.1.26"
+    "@elysiajs/cors": "^1.2.0",
+    "elysia": "^1.1.26",
+    "jose": "^6.0.10",
+    "mongodb": "^6.15.0"
   },
   "scripts": {
     "dev": "bun --watch index.ts"
